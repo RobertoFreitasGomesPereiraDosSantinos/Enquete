@@ -1,0 +1,70 @@
+h1 {
+    height: 500px;
+    width: 500px;
+    border-radius: 500px;
+    background-color: #14f094;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    
+}
+/* div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+} */
+.sim {
+    background-color: #83BD75;
+    width: 10px;
+    float: left;
+    margin-left: 47%;
+}
+.nao {
+    background-color: #F55353;
+    width: 10px;
+    float: left;
+    margin-left: 47%;
+}
+#sim {
+    box-shadow:0 5px 0 black;
+    background-color: rgb(30, 206, 45);
+    font-size: 20px;
+    margin-right: 15px;
+}
+#nao {
+    box-shadow:0 5px 0 black;
+    font-size: 20px;
+    background-color: rgb(206, 30, 30);
+    margin-left: 15px;
+}
+#sim:hover{
+    box-shadow:0 5px 0 black;
+    font-size: 20px;
+    background-color: rgb(17, 121, 26);
+    margin-right: 15px;
+}
+#nao:hover{
+    box-shadow:0 5px 0 black;
+    font-size: 20px;
+    background-color: rgb(107, 15, 15);
+    margin-left: 15px;
+}
+#sim:active {
+    box-shadow: none;
+    transform: translateY(4px);
+    font-size: 20px;
+    margin-right: 15px;
+}
+#nao:active {
+    box-shadow: none;
+    font-size: 20px;
+    transform: translateY(4px);
+    margin-left: 15px;
+}
+button {
+    border: none;
+    height: 50px;
+    width: 60px;
+    border-radius: 30px;
+} 
